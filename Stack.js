@@ -29,12 +29,3 @@
         return this.items
     }
  }
-
- const list=new Stack();
- console.log(list.isEmpty())
- console.log(list.push(100))
- console.log(list.push(200))
- console.log(list.push(300))
- console.log(list.toArray())
- console.log(list.pop())
- console.log(list.size())
